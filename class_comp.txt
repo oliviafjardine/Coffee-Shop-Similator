@@ -1,0 +1,30 @@
+Coffee class:
+    - Represents a type of coffee
+    - Private
+        - name of coffee
+        - costs for different sizes (S, M, L)
+        - default constructor
+
+Order class:
+    - Represents an order for a coffee
+    - Stores:
+        - order number
+        - name of coffee
+        - coffee size
+        - quantity (number of coffees)
+
+Shop class:
+    - Represents a coffee Shop
+    - Stores:
+        - phone number
+        - address
+        - shop revenue
+    - Maintains array of orders
+    - Keeps track of number of orders
+    - Adds a coffee to menu and an order to the order array
+
+Relationships between the classes:
+The Shop class combines instances from the coffee and order classes.
+It uses the coffee objects to populate a menu and orders objects
+to manage customer orders. Also manages the revenue and contact info
+of the shop.
